@@ -1,0 +1,139 @@
+body {
+    background: url(./Pictures/divar.png);
+}
+.container {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.main-menu {
+    box-sizing: border-box;
+    flex: 0 0 100%;
+    display: flex;
+    height: 90px;
+    border-bottom: #c9c9c9 2px solid;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.left-said {
+    border: solid #c9c9c9 1px;
+    flex: 5;
+    background-color: white;
+    padding: 25px;
+    height: 625px;
+    box-sizing: border-box;
+    margin: 20px 40px 40px 0px;
+}
+.right-said {
+    border: solid #c9c9c9 1px;
+    flex: 2;
+    height: 200px;
+    background-color: white;
+    margin-top: 20px;
+}
+.bashliq {
+    font-size: 35px;
+    color: white;
+    background-color: #4AAAA5;
+    height: 100%;
+    width: 250px;
+    text-align: center;
+    line-height: 2.3;
+    font-weight: 900;
+    display: inline-block;
+}
+.bashliq a {
+    text-decoration: none;
+    color: white;
+}
+li+li::before {
+    content: "❘";
+    margin-right: 10px;
+    color: rgb(151, 150, 150);
+    font-size: 23px;
+}
+li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(151, 150, 150);
+    font-size: 25px;
+}
+.a:hover {
+    color: red;
+    text-decoration: underline;
+}
+nav {
+    float: right;
+}
+.ul {
+    margin: 28px 20px 0px 420px ;
+}
+.left-said h2 {
+    color: #4AAAA5;
+    border-bottom: solid 3px #dddddd;
+    padding: 7px 0px 25px 0px;
+    font-size: 35px;
+    font-weight: 900;
+}
+.label {
+    font-size: 23px;
+    color: rgb(117, 115, 115);
+    display: block;
+    margin: 23px 0px 0px 0px;
+}
+.input {
+    height: 30px;
+    width: 100%;
+    margin: 8px 0px 0px 0px;
+    border: solid 1px #c9c9c9;
+}
+.form textarea {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 10px 0px 13px 0px;
+    border: 1px solid #c9c9c9;
+}
+.form button {
+    background-color: #4AAAA5;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border: #4AAAA5 solid 1px;
+}
+.right-said h3 {
+    color: #4AAAA5;
+    font-weight: 900;
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 2px solid rgb(240, 238, 238);
+    margin: 15px 20px;
+    padding: 0px 0px 18px 0px;
+}
+.github {
+    margin: 10px 0px 0px 25px;
+}
+.instagram {
+    margin: 10px 3px 0px 2px
+}
+.linkedin {
+    margin: 10px 0px 0px 0px
+}    
+.footer {
+    background-color: #646464;
+    border-top: solid 8px hsl(177, 39%, 48%);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #c7c7c7;
+    line-height: 7.5;
+    font-size: 13px;
+}
